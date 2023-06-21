@@ -1,13 +1,13 @@
 import React from "react"
 import Nav from './components/Nav'
-import Main from './components/Main'
+import MainContent from './components/MainContent'
 import './App.css'
 
 function App() {
 	return (
 		<div className="container">
 			<Nav />
-			<Main />
+			<MainContent />
 		</div>
 
 	)

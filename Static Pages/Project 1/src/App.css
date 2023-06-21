@@ -1,6 +1,63 @@
 * {
+  font-family: 'Inter';
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  background: #282D35;
+}
+.container {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.logo {
+  width:50px;
+  margin-right: 20px;
+}
+
+.title {
+  color: #61DAFB;
+  font-weight: 700; 
+  margin-right: auto;
+  font-size: 32px;
+}
+.right-title {
+  color: #DEEBF8;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 50px;
+}
+main {
+  padding: 57px 27px;
+  color: white;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 450px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+  font-size: 18px;
+}
+
+.main--facts > li::marker {
+  color: #61DAFB;
+  font-size: 1.6rem;
 }
